@@ -1,0 +1,6 @@
+<div>
+  <input type="text" [(ngModel)]="color" placeholder="Escribe un color" />
+</div>
+<div [style.background-color]="color" style="height: 300px; width: 300px; text-align: center;">
+  <p>{{ color }}</p>
+</div>
